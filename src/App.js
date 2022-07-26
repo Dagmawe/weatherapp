@@ -59,7 +59,7 @@ return ` ${day} ${date} ${month} ${year}`
         </div>
         <div className='weather-box'>
           <div className='temp'>
-            {Math.round(weather.main.temp)}℃
+           master temp {Math.round(weather.main.temp)}℃
           </div>
           <div className='feels-like'>
            master {weather.main.feels_like} 
