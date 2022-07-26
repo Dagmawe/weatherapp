@@ -55,6 +55,7 @@ return ` ${day} ${date} ${month} ${year}`
         <div>
           Hello
           <div className='location-box'>
+            Hello 2
           <div className='location'>{weather.name}, {weather.sys.country}</div>
           <div className='date'>{dateBuilder(new Date())}</div>
         </div>
