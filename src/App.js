@@ -62,7 +62,7 @@ return ` ${day} ${date} ${month} ${year}`
             {Math.round(weather.main.temp)}℃
           </div>
           <div className='feels-like'>
-           FEELS LIKE THIS: {weather.main.feels_like} 
+           FEELS: {weather.main.feels_like} 
           </div>
           <div className='weather'>{weather.weather[0].main}</div>
         </div>
