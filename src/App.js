@@ -64,7 +64,7 @@ return ` ${day} ${date} ${month} ${year}`
           <div className='feels-like'>
            master {weather.main.feels_like} 
           </div>
-          <div className='weather'>{weather.weather[0].main}</div>
+          <div className='weather'>{weather.weather[0].main} new</div>
         </div>
         </div>
         ) : ('')}
