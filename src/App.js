@@ -53,18 +53,20 @@ return ` ${day} ${date} ${month} ${year}`
         </div>
         {(typeof weather.main != "undefined") ? (
         <div>
+          hello 2
           <div className='location-box'>
           <div className='location'>{weather.name}, {weather.sys.country}</div>
           <div className='date'>{dateBuilder(new Date())}</div>
         </div>
         <div className='weather-box'>
           <div className='temp'>
-            {Math.round(weather.main.temp)}℃
+             {Math.round(weather.main.temp)}
           </div>
           <div className='feels-like'>
-           master {weather.main.feels_like} 
+           Feel likes {weather.main.feels_like} 
           </div>
-          <div className='weather'>{weather.weather[0].main}</div>
+          <div className='weather'>{weather.weather[0].main} new
+          </div>
         </div>
         </div>
         ) : ('')}
