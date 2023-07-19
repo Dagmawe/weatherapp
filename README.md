@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+Key Notes:
+
+API: I used openweatherApi to fetch and display weather (will need the proper key to fetch the data (recieve upon request))
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
